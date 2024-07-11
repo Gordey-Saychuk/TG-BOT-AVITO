@@ -1,7 +1,7 @@
 const TelegramApi = require('node-telegram-bot-api');
 const fs = require('fs');
 
-const token = '6575965779:AAHIAB5pMXhhq-k1LuA2yoAcauXTYm1CpDU';
+const token = 'your_tg_bot_token_here';
 const bot = new TelegramApi(token, { polling: true });
 
 // Storage for user data
